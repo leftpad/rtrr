@@ -1,13 +1,13 @@
-# rrtr [![Travis][build-badge]][build] [![npm package][npm-badge]][npm]
+# rtrr [![Travis][build-badge]][build] [![npm package][npm-badge]][npm]
 
-[rrtr](https://www.npmjs.com/package/rrtr) is a complete routing library for [React](https://facebook.github.io/react).
+[rtrr](https://www.npmjs.com/package/rtrr) is a complete routing library for [React](https://facebook.github.io/react).
 
-rrtr keeps your UI in sync with the URL. It has a simple API with powerful features like lazy code loading, dynamic route matching, and location transition handling built right in. Make the URL your first thought, not an after-thought.
+rtrr keeps your UI in sync with the URL. It has a simple API with powerful features like lazy code loading, dynamic route matching, and location transition handling built right in. Make the URL your first thought, not an after-thought.
 
 [![Coveralls][coveralls-badge]][coveralls]
 [![Discord][discord-badge]][discord]
 
-**rrtr**? It's an actively-maintained fork of React Router. More details [here](https://medium.com/@taion/react-router-is-dead-long-live-rrtr-d229ca30e318).
+**rtrr**? It's an actively-maintained fork of React Router. More details [here](https://medium.com/@taion/react-router-is-dead-long-live-rtrr-d229ca30e318).
 
 ### Docs & Help
 
@@ -28,24 +28,24 @@ We support all browsers and environments where React runs.
 
 Using [npm](https://www.npmjs.com/):
 
-    $ npm install --save rrtr
+    $ npm install --save rtrr
 
 Then with a module bundler like [webpack](https://webpack.github.io/) that supports either CommonJS or ES2015 modules, use as you would anything else:
 
 ```js
 // using an ES6 transpiler, like babel
-import { Router, Route, Link } from 'rrtr'
+import { Router, Route, Link } from 'rtrr'
 
 // not using an ES6 transpiler
-var Router = require('rrtr').Router
-var Route = require('rrtr').Route
-var Link = require('rrtr').Link
+var Router = require('rtrr').Router
+var Route = require('rtrr').Route
+var Link = require('rtrr').Link
 ```
 
 The UMD build is also available on [npmcdn](https://npmcdn.com):
 
 ```html
-<script src="https://npmcdn.com/rrtr/umd/ReactRouter.min.js"></script>
+<script src="https://npmcdn.com/rtrr/umd/ReactRouter.min.js"></script>
 ```
 
 You can find the library on `window.ReactRouter`.
@@ -55,7 +55,7 @@ You can find the library on `window.ReactRouter`.
 ```js
 import React from 'react'
 import { render } from 'react-dom'
-import { Router, Route, Link, browserHistory } from 'rrtr'
+import { Router, Route, Link, browserHistory } from 'rtrr'
 
 const App = React.createClass({/*...*/})
 const About = React.createClass({/*...*/})
@@ -120,7 +120,7 @@ See more in the [Introduction](/docs/Introduction.md), [Guides](/docs/guides/REA
 
 ### Versioning and Stability
 
-We want rrtr to be a stable dependency that’s easy to keep current. We follow the same versioning as React.js itself: [React Versioning Scheme](https://facebook.github.io/react/blog/2016/02/19/new-versioning-scheme.html).
+We want rtrr to be a stable dependency that’s easy to keep current. We follow the same versioning as React.js itself: [React Versioning Scheme](https://facebook.github.io/react/blog/2016/02/19/new-versioning-scheme.html).
 
 ### Thanks
 
@@ -129,14 +129,14 @@ React Router.
 
 React Router was initially inspired by Ember's fantastic router. Many thanks to the Ember team.
 
-[build-badge]: https://img.shields.io/travis/taion/rrtr/master.svg
-[build]: https://travis-ci.org/taion/rrtr
+[build-badge]: https://img.shields.io/travis/taion/rtrr/master.svg
+[build]: https://travis-ci.org/taion/rtrr
 
-[npm-badge]: https://img.shields.io/npm/v/rrtr.svg
-[npm]: https://www.npmjs.org/package/rrtr
+[npm-badge]: https://img.shields.io/npm/v/rtrr.svg
+[npm]: https://www.npmjs.org/package/rtrr
 
-[coveralls-badge]: https://img.shields.io/coveralls/taion/rrtr/master.svg
-[coveralls]: https://coveralls.io/github/taion/rrtr
+[coveralls-badge]: https://img.shields.io/coveralls/taion/rtrr/master.svg
+[coveralls]: https://coveralls.io/github/taion/rtrr
 
 [discord-badge]: https://img.shields.io/badge/Discord-join%20chat%20%E2%86%92-738bd7.svg
 [discord]: https://discord.gg/0ZcbPKXt5bYaNQ46
